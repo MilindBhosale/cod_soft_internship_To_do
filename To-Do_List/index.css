@@ -1,0 +1,75 @@
+body{
+    background:linear-gradient(138deg, rgb(11, 138, 212),rgb(56, 56, 174));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    display: flex;
+    /*top right bottom left*/
+    margin:150px 0 15px 520px;
+    font-size: 2em;
+    font-weight:bold;
+    color: rgb(0, 128, 255);
+}
+
+.sub_heading{
+    display: flex;
+    margin: 50px 0 0 520px;
+    color: rgb(0, 128, 255);
+    font-size: 1.5em;
+}
+
+.ip{
+    display: flex;
+    width: 400px;
+    height: 30px;
+    margin-left: 520px;
+    border: blue;
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    background-color: orange;
+    color: white;
+    padding: 0.6em 0.5em;
+    border: none;
+    border-radius: 10px;
+    margin:-32px 0 15px 856px ;
+    cursor: pointer;
+}
+
+.line{
+    align-items: center;
+    margin-top: 50px;
+    width:50%;
+    color: rgb(0, 128, 255);
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-top: -70px;
+    margin-left: 520px;
+    padding-top: 5%;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+.item p{
+    font-size: 18px;
+}
+.item-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item-btn i{
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}
+.button .active{
+    background-color: aliceblue;
+    opacity: 1;
+}
